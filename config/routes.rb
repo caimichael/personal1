@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root "pages#home"
   get "about" => "pages#about"
+  get "socialmedia" => "pages#socialmedia"
   get "projects" => "pages#projects"
   get "photography" => "pages#photography"
   get "blog" => "pages#blog"
